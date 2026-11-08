@@ -1,0 +1,318 @@
+/* ===== Root ===== */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #F5F5F5;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 1 0 0;
+}
+
+.logo-box {
+    -fx-padding: 20 16 18 16;
+    -fx-border-color: #E8E8E8;
+    -fx-border-width: 0 0 1 0;
+}
+
+.logo-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1A1A2E;
+}
+
+.logo-sub {
+    -fx-font-size: 11px;
+    -fx-text-fill: #888888;
+}
+
+.nav-item {
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0 2;
+}
+
+.nav-item:hover {
+    -fx-background-color: #F5F8FF;
+}
+
+.nav-item-active {
+    -fx-background-color: #EBF3FF;
+    -fx-border-color: #185FA5;
+    -fx-border-width: 0 0 0 2;
+}
+
+.nav-dot {
+    -fx-background-color: #CCCCCC;
+    -fx-background-radius: 50%;
+}
+
+.nav-item-active .nav-dot {
+    -fx-background-color: #185FA5;
+}
+
+.nav-label {
+    -fx-text-fill: #555555;
+    -fx-font-size: 13px;
+}
+
+.nav-item-active .nav-label {
+    -fx-text-fill: #185FA5;
+    -fx-font-weight: 500;
+}
+
+/* ===== View root & topbar ===== */
+.view-root {
+    -fx-background-color: #F5F5F5;
+}
+
+.content-area {
+    -fx-background-color: #F5F5F5;
+}
+
+.topbar {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 14 20 14 20;
+    -fx-border-color: #E8E8E8;
+    -fx-border-width: 0 0 1 0;
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 10;
+}
+
+.view-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+    -fx-text-fill: #1A1A2E;
+}
+
+.view-sub {
+    -fx-font-size: 12px;
+    -fx-text-fill: #888888;
+}
+
+/* ===== Content ===== */
+.view-content {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #F5F5F5;
+}
+
+.edge-to-edge {
+    -fx-background-color: #F5F5F5;
+    -fx-background: #F5F5F5;
+    -fx-border-color: transparent;
+}
+
+.edge-to-edge > .viewport {
+    -fx-background-color: #F5F5F5;
+}
+
+/* ===== Metric cards ===== */
+.metric-card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8;
+    -fx-border-color: #E8E8E8;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 14;
+}
+
+.metric-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #888888;
+}
+
+.metric-value {
+    -fx-font-size: 22px;
+    -fx-font-weight: 500;
+    -fx-text-fill: #1A1A2E;
+}
+
+.metric-sub {
+    -fx-font-size: 11px;
+    -fx-text-fill: #1D9E75;
+}
+
+/* ===== Section title ===== */
+.section-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+    -fx-text-fill: #1A1A2E;
+}
+
+/* ===== Tables ===== */
+.payroll-table {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E8E8E8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-width: 1;
+}
+
+.payroll-table .column-header {
+    -fx-background-color: #F8F9FA;
+    -fx-border-color: #E8E8E8;
+    -fx-border-width: 0 0 1 0;
+}
+
+.payroll-table .column-header-background {
+    -fx-background-color: #F8F9FA;
+}
+
+.payroll-table .column-header .label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-text-fill: #666666;
+}
+
+.payroll-table .table-row-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: transparent transparent #F0F0F0 transparent;
+    -fx-border-width: 1;
+}
+
+.payroll-table .table-row-cell:selected {
+    -fx-background-color: #EBF3FF;
+}
+
+.payroll-table .table-cell {
+    -fx-text-fill: #333333;
+    -fx-font-size: 12px;
+    -fx-padding: 8 12;
+}
+
+/* ===== Badges ===== */
+.badge {
+    -fx-font-size: 11px;
+    -fx-padding: 3 9;
+    -fx-background-radius: 20;
+}
+
+.badge-active {
+    -fx-background-color: #EAF3DE;
+    -fx-text-fill: #3B6D11;
+}
+
+.badge-pending {
+    -fx-background-color: #FAEEDA;
+    -fx-text-fill: #854F0B;
+}
+
+.badge-warning {
+    -fx-background-color: #FAEEDA;
+    -fx-text-fill: #854F0B;
+}
+
+.badge-paid {
+    -fx-background-color: #E6F1FB;
+    -fx-text-fill: #185FA5;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+    -fx-background-color: #185FA5;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 6;
+    -fx-font-size: 13px;
+    -fx-padding: 7 16;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #0C447C;
+}
+
+.btn-secondary {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #333333;
+    -fx-background-radius: 6;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+    -fx-font-size: 12px;
+    -fx-padding: 5 12;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #F5F5F5;
+}
+
+.btn-danger {
+    -fx-text-fill: #A32D2D;
+    -fx-border-color: #F09595;
+}
+
+/* ===== Bar chart ===== */
+.bar-track {
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 4;
+}
+
+.bar-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #666666;
+}
+
+.bar-amount {
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-text-fill: #333333;
+}
+
+/* ===== Summary rows ===== */
+.summary-row {
+    -fx-padding: 8 0;
+    -fx-border-color: #F0F0F0;
+    -fx-border-width: 0 0 1 0;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.summary-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #666666;
+}
+
+.summary-value {
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+    -fx-text-fill: #1A1A2E;
+}
+
+/* ===== Detail cards ===== */
+.detail-card {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E8E8E8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 16;
+}
+
+/* ===== Search field ===== */
+.search-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-border-width: 1;
+    -fx-font-size: 13px;
+    -fx-padding: 7 12;
+}
+
+/* ===== Salary slip ===== */
+.salary-slip {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 1;
+}
+
+/* ===== Dialog ===== */
+.dialog-pane {
+    -fx-background-color: #FFFFFF;
+}
